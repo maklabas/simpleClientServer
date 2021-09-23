@@ -50,6 +50,7 @@ public class Server {
                 }
                 System.out.println("Num of symbols = " + count);
 
+
                 out.write("[SERVER GOT MSG]");
                 out.flush();
             } finally {
