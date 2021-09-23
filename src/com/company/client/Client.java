@@ -20,7 +20,7 @@ public class Client {
                 in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
                 out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
 
-                System.out.println("Enter msg for server:");
+                System.out.println("Enter some string:");
                 String msg = reader.readLine();
                 out.write(msg + "\n");
                 out.flush();
